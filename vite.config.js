@@ -16,7 +16,7 @@ export default defineConfig(({ command }) => {
   return {
     plugins: [react(),tailwindcss()],
     // base: command === "build" ? "/portfolio1/" : "/",
-    base:"/portfolio/"
+    base:"/portfolio1/"
   }
 })
 
